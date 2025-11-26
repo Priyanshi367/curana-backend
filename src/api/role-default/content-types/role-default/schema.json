@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "role_defaults",
+  "info": {
+    "singularName": "role-default",
+    "pluralName": "role-defaults",
+    "displayName": "Role Default"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "role": {
+      "type": "enumeration",
+      "enum": [
+        "provider",
+        "health_plan_user",
+        "corporate"
+      ]
+    },
+    "menus": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::menu.menu"
+    }
+  }
+}

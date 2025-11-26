@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_menu_role_selectors",
+  "info": {
+    "displayName": "role-selector",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "role": {
+      "type": "enumeration",
+      "enum": [
+        "provider",
+        "health_plan_user",
+        "corporate"
+      ]
+    }
+  },
+  "config": {}
+}
