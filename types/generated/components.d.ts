@@ -8,7 +8,7 @@ export interface MenuRoleSelector extends Struct.ComponentSchema {
   };
   attributes: {
     role: Schema.Attribute.Enumeration<
-      ['provider', 'health_plan_user', 'corporate']
+      ['provider', 'health_plan_user', 'corporate', 'admin']
     >;
   };
 }

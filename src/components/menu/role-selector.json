@@ -11,7 +11,8 @@
       "enum": [
         "provider",
         "health_plan_user",
-        "corporate"
+        "corporate",
+        "admin"
       ]
     }
   },
